@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+**/build/
+*.class
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration
+local.properties
+local.defaults.properties
+
+# Signing keys and secrets
+*.jks
+*.keystore
+*.p12
+keystore.properties
+release-signing.properties
+signing.properties
+*.pem
+*.pk8
+
+# API keys, tokens, secrets
+secrets.properties
+*.env
+.env.local
+.env.development
+.env.production
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Kotlin / Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Outputs and logs
+*.apk
+*.aab
+*.aar
+*.log

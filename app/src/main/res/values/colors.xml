@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Design system colors — single source of truth for XML resources -->
+    <color name="primary">#2EBE4A</color>
+    <color name="primary_dark">#1E8C35</color>
+    <color name="primary_light">#B8F0C4</color>
+    <color name="secondary">#FFD600</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F7F7F9</color>
+    <color name="text_primary">#222222</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="error">#E53935</color>
+    <color name="warning">#FFB300</color>
+</resources>

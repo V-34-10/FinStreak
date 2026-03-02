@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">FinStreak</string>
+    <string name="app_tagline">Financial Discipline Tracker</string>
+
+    <!-- Navigation labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding Screen 1 -->
+    <string name="onboarding1_title">Build Your\nFinancial Streak</string>
+    <string name="onboarding1_subtitle">Track every day where you resist impulsive purchases. Each safe day adds to your streak — building lasting financial discipline.</string>
+    <string name="onboarding1_feature1_title">Safe Days</string>
+    <string name="onboarding1_feature1_desc">A safe day is one where you make no unplanned purchases.</string>
+    <string name="onboarding1_feature2_title">Streak Counter</string>
+    <string name="onboarding1_feature2_desc">Consecutive safe days form your streak. Don\'t break the chain!</string>
+    <string name="onboarding1_feature3_title">Track Progress</string>
+    <string name="onboarding1_feature3_desc">See your discipline grow with weekly and monthly analytics.</string>
+    <string name="onboarding1_btn_next">Next</string>
+
+    <!-- Onboarding Screen 2 -->
+    <string name="onboarding2_title">Resilience\nCalculator</string>
+    <string name="onboarding2_subtitle">Evaluate your financial resilience daily. Input your own criteria, score your discipline, and watch your resilience grow over time.</string>
+    <string name="onboarding2_feature1_title">Manual Data Entry</string>
+    <string name="onboarding2_feature1_desc">You are in full control. Every entry is made by you.</string>
+    <string name="onboarding2_feature2_title">Resilience Score</string>
+    <string name="onboarding2_feature2_desc">Rate your day from 0–100 based on your own financial criteria.</string>
+    <string name="onboarding2_feature3_title">Visual Analytics</string>
+    <string name="onboarding2_feature3_desc">Charts and trends show your discipline patterns at a glance.</string>
+    <string name="onboarding2_btn_get_started">Get Started</string>
+
+    <!-- Home Screen -->
+    <string name="home_streak_label">Day Streak</string>
+    <string name="home_stat_best_streak">Best Streak</string>
+    <string name="home_stat_total_safe">Total Safe</string>
+    <string name="home_stat_total_days">Total Days</string>
+    <string name="home_btn_log_today">Log Today</string>
+    <string name="home_recent_days">Recent Days</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_empty_title">Start your journey</string>
+    <string name="home_empty_subtitle">Log your first day to begin tracking your financial discipline streak!</string>
+    <string name="home_fab_add_day">Add Day</string>
+
+    <!-- Motivational messages -->
+    <string name="motivation_0">Start your streak today!</string>
+    <string name="motivation_1_2">Great start! Keep going!</string>
+    <string name="motivation_3_6">You\'re building momentum!</string>
+    <string name="motivation_7_13">One week strong! Amazing discipline!</string>
+    <string name="motivation_14_29">Two weeks of financial mastery!</string>
+    <string name="motivation_30_plus">Incredible! You\'re a financial champion!</string>
+
+    <!-- Add Day Screen -->
+    <string name="add_day_title">Log Today</string>
+    <string name="add_day_section_how">How was your day?</string>
+    <string name="add_day_already_logged">You already logged today. This will update your existing entry.</string>
+    <string name="add_day_safe_label">✅  Safe Day</string>
+    <string name="add_day_safe_desc">I made no unplanned purchases today.</string>
+    <string name="add_day_overspend_label">⚠️  Overspend</string>
+    <string name="add_day_overspend_desc">I made unplanned or impulsive purchases today.</string>
+    <string name="add_day_section_note">Add a Note (optional)</string>
+    <string name="add_day_note_placeholder">What happened today?</string>
+    <string name="add_day_btn_save">Save Entry</string>
+    <string name="add_day_error_status">Please select a day status</string>
+    <string name="add_day_error_note_length">Note must be 200 characters or less</string>
+
+    <!-- Resilience Calculator Screen -->
+    <string name="resilience_title">Resilience Calculator</string>
+    <string name="resilience_section_score">Your Resilience Score (0–100)</string>
+    <string name="resilience_score_placeholder">Enter score: 0–100</string>
+    <string name="resilience_section_criteria">Your Criteria (optional)</string>
+    <string name="resilience_criteria_subtitle">Describe what influenced your score today.</string>
+    <string name="resilience_criteria_placeholder">e.g. Avoided eating out, skipped online shopping…</string>
+    <string name="resilience_btn_save">Save Score</string>
+    <string name="resilience_guide_title">Score Guide</string>
+    <string name="resilience_label_excellent">Excellent</string>
+    <string name="resilience_label_good">Good</string>
+    <string name="resilience_label_fair">Fair</string>
+    <string name="resilience_label_needs_work">Needs Work</string>
+    <string name="resilience_error_score">Enter a valid score (0–100)</string>
+    <string name="resilience_error_criteria_length">Max 200 characters</string>
+
+    <!-- History Screen -->
+    <string name="history_title">History</string>
+    <string name="history_search_placeholder">Search notes…</string>
+    <string name="history_empty_title">No entries yet</string>
+    <string name="history_empty_subtitle">Start logging your days to see your history here.</string>
+
+    <!-- Filter periods -->
+    <string name="filter_all">All</string>
+    <string name="filter_week">This Week</string>
+    <string name="filter_month">This Month</string>
+    <string name="filter_3months">3 Months</string>
+
+    <!-- Day Detail Screen -->
+    <string name="day_detail_title">Day Details</string>
+    <string name="day_detail_safe_label">Safe Day</string>
+    <string name="day_detail_overspend_label">Overspend Day</string>
+    <string name="day_detail_section_note">Note</string>
+    <string name="day_detail_section_resilience">Resilience Score</string>
+    <string name="day_detail_section_criteria">Criteria</string>
+    <string name="day_detail_btn_edit">Edit</string>
+    <string name="day_detail_btn_delete">Delete</string>
+    <string name="day_detail_delete_dialog_title">Delete Entry</string>
+    <string name="day_detail_delete_dialog_body">Are you sure you want to delete this day entry? This action cannot be undone.</string>
+    <string name="day_detail_not_found_title">Entry not found</string>
+    <string name="day_detail_not_found_subtitle">This entry may have been deleted.</string>
+
+    <!-- Edit Day Screen -->
+    <string name="edit_day_title">Edit Entry</string>
+    <string name="edit_day_section_status">Day Status</string>
+    <string name="edit_day_safe_desc">No unplanned purchases made.</string>
+    <string name="edit_day_overspend_desc">Unplanned or impulsive purchases were made.</string>
+    <string name="edit_day_section_note">Note (optional)</string>
+    <string name="edit_day_note_placeholder">Add a note…</string>
+    <string name="edit_day_btn_save">Save</string>
+    <string name="edit_day_delete_dialog_title">Delete Entry</string>
+    <string name="edit_day_delete_dialog_body">This entry will be permanently deleted. Are you sure?</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_empty_title">No data yet</string>
+    <string name="analytics_empty_subtitle">Start logging your days to see analytics here.</string>
+    <string name="analytics_current_streak">Current\nStreak</string>
+    <string name="analytics_best_streak">Best\nStreak</string>
+    <string name="analytics_avg_resilience">Avg\nResilience</string>
+    <string name="analytics_days_suffix">days</string>
+    <string name="analytics_safe_rate_title">Safe Day Rate</string>
+    <string name="analytics_weekly_title">Weekly Overview</string>
+    <string name="analytics_monthly_title">Monthly Breakdown</string>
+    <string name="analytics_legend_safe">Safe</string>
+    <string name="analytics_legend_total">Total</string>
+    <string name="analytics_legend_overspend">Overspend</string>
+    <string name="analytics_tips_title">💡 Recommendations</string>
+    <string name="analytics_period_week">Week</string>
+    <string name="analytics_period_month">Month</string>
+    <string name="analytics_period_3months">3 Months</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_preferences">Preferences</string>
+    <string name="settings_section_data">Account &amp; Data</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_notifications_title">Daily Reminders</string>
+    <string name="settings_notifications_subtitle">Get notified at 8:00 PM to log your day</string>
+    <string name="settings_clear_data_title">Clear All Data</string>
+    <string name="settings_clear_data_subtitle">Permanently delete all logged entries</string>
+    <string name="settings_reset_title">Reset App</string>
+    <string name="settings_reset_subtitle">Clear all data and reset settings</string>
+    <string name="settings_rate_title">Rate FinStreak</string>
+    <string name="settings_rate_subtitle">Enjoying the app? Leave a review</string>
+    <string name="settings_share_title">Share App</string>
+    <string name="settings_share_subtitle">Share FinStreak with friends</string>
+    <string name="settings_privacy_title">Privacy Policy</string>
+    <string name="settings_privacy_subtitle">View our privacy policy</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_clear_data_dialog_title">Clear All Data</string>
+    <string name="settings_clear_data_dialog_body">This will permanently delete all your logged days and entries. This action cannot be undone.</string>
+    <string name="settings_reset_dialog_title">Reset App</string>
+    <string name="settings_reset_dialog_body">This will delete all data and reset all settings to defaults. This action cannot be undone.</string>
+    <string name="settings_share_subject">FinStreak — Financial Discipline Tracker</string>
+    <string name="settings_share_text">Check out FinStreak — a great app for building financial discipline and tracking your spending habits!</string>
+    <string name="settings_clear_success">Data cleared successfully</string>
+
+    <!-- Common actions -->
+    <string name="action_retry">Retry</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_edit">Edit</string>
+
+    <!-- Common errors -->
+    <string name="error_generic">An error occurred</string>
+    <string name="error_failed_load">Failed to load data</string>
+    <string name="error_failed_save">Failed to save entry</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_add_day">Add Day</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_safe_status">Safe day status</string>
+    <string name="cd_overspend_status">Overspend day status</string>
+
+    <!-- Notifications -->
+    <string name="notification_reminder_title">Log Your Day</string>
+    <string name="notification_reminder_body">Don\'t forget to record your spending discipline today!</string>
+    <string name="notification_streak_title">New Streak Record!</string>
+    <string name="notification_streak_body">You have achieved a new safe days streak. Keep it up!</string>
+</resources>
